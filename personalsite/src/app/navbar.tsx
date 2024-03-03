@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "./navbar.module.scss"
-export const Navbar = () => {
+export const NavBar = () => {
   return (
       <div className={styles.navbar}>
         <Link href="/">Home</Link>
