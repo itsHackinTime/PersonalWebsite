@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import styles from './page.module.css'
-import { NavBar } from './NavBar'
+
+import { NavBar } from './_components/NavBar'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <NavBar/>
-    </main>
+    <div className={'main'}>
+      <h1>Ian Weinholtz</h1>
+    </div>
   )
-}
+} 
