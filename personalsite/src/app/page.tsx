@@ -7,7 +7,12 @@ export default function Home() {
     <main className={'main'}>
       <div className='leftroundedaccent'>
         <div className='myname'>
-          <p >IAN WEINHOLTZ</p>
+          <div className='firstlast'>
+            <p className='firstlast'>IAN</p>
+          </div>
+          <div className='firstlast'>
+            <p className='firstlast'>WEINHOLTZ</p>
+          </div>
         </div>
       </div>
     </main>
