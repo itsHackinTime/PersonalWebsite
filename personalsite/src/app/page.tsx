@@ -4,8 +4,12 @@ import { NavBar } from './_components/NavBar'
 
 export default function Home() {
   return (
-    <div className={'main'}>
-      <h1>Ian Weinholtz</h1>
-    </div>
+    <main className={'main'}>
+      <div className='leftroundedaccent'>
+        <div className='myname'>
+          <p >IAN WEINHOLTZ</p>
+        </div>
+      </div>
+    </main>
   )
 } 

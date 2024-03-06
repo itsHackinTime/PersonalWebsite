@@ -5,12 +5,26 @@ $primary-color: #C5C6C7
 $blue-text-color: #66FCF1
 $white-text-color: #FFFFFF
 
+body
+  margin: 8px 0px
+
 .main 
   display: flex
   flex-direction: column    
   justify-content: space-between
   align-items: space-evenly     
   font-family: 'Roboto Mono', monospace
+  .leftroundedaccent
+    border-radius: 0% 40vh 40vh 0%
+    background-color: $secondary-color
+    min-height: 40vh
+    max-width: 90vw
+    margin-top: 50px
+    .myname
+      font-size: 200px
+      display: flex
+      align-items: center
+      justify-content: center
 
 .navbar 
   display: flex
@@ -22,4 +36,7 @@ $white-text-color: #FFFFFF
   min-width: 100vw
   color: #C5C6C7
   font-size: larger
-  border-bottom: 1px solid #C5C6C7
+  .link
+    text-decoration: none
+  .active
+    text-decoration: underline $primary-color solid 5px
